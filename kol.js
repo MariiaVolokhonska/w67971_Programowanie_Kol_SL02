@@ -43,7 +43,7 @@ function validateName(){
     const n=document.forms["form"]["imie"];
     const n_v=n.value;
     const k=n_v.length;
-    if(k<6){
+    if(k<3){
         alert("Login must have minimum 6 symbols");
     }
 };
@@ -80,6 +80,15 @@ function bigFunc(){
         return true;
     }
 };
+var checkbox = document.getElementById("check");
+
+checkbox.addEventListener('change', function() {
+  if (this.checked) {
+    ;
+  } else {
+    console.log("Checkbox is not checked..");
+  }
+});
 let curDate=new Date();
 const curYear=curDate.getFullYear();
 const curYearInt= parseInt(curYear);
