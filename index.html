@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="utf-8"/>
+    <link rel="stylesheet " href="kol.css">
+<title>Strona</title>
+</head>
+<body>
+<p>Zadanie 1. Przyciski</p>
+<button id="bt1" class="button"></button>
+<button id="bt2" class="button"></button>
+<button id="bt3" class="button"></button> <br/>
+
+<button class="button"></button>
+<button class="button"></button>
+<button class="button"></button>
+
+<p>Zadanie 2.Validacja</p>
+<form id="form" onsubmit="bigFunc()" novalidate>
+    <label for="imie">Login: </label>
+    <input type="text" id="imie" name="imie" oninput="return validateName()"><br/>
+    <label for="email">Email: </label>
+    <input type="email" id="email" name="email"><br/>
+    <label for="pas">Hasło: </label>
+    <input type="password" id="pas" name="pas"><br/>
+    <label for="pas2">Powtórz hasło: </label>
+    <input type="password" id="pas2" name="pas2" oninput="drugieHaslo()"><br/>
+
+    <label><input type="radio" name="check" id="check">Telefon</label>
+    <label><input type="radio" name="check" id="check">Data</label><br/>
+    <label for="tel">Telefon:</label>
+    <input type="tel" name="telephone" pattern="[0-9]{9}" id="tel" required><br/>
+    <label for="bday">Data urodzenia:</label>
+    <input type="date" name="bday" id="bday" required><br/>
+    <input type="submit" name="Submit" value="Submit">
+
+</form>
+<script src="kol.js"></script>
+
+
+</body>
+</html>

@@ -1,0 +1,2 @@
+Polecenie git push służy do przesyłania zawartości lokalnego repozytorium do zdalnego repozytorium.
+Wypycha określoną gałąź do elementu wraz ze wszystkimi wymaganymi zatwierdzeniami i obiektami wewnętrznymi. Powoduje to utworzenie gałęzi lokalnej w repozytorium docelowym. Aby zapobiec nadpisaniu zatwierdzeń, Środowisko Git nie pozwoli na wypychanie, jeżeli przyczyni się do scalenia w repozytorium docelowym bez przyspieszenia.

@@ -1,0 +1,17 @@
+.button{
+    border-radius: 50%;
+    height:50px;
+    width:50px;
+}
+.color{
+    background-color:rgb(209, 136, 136);
+}
+.color1{
+    background-color:red;
+}
+.color2{
+    background-color: yellow;
+}
+.color3{
+    background-color: green;
+}
